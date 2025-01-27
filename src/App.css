@@ -1,0 +1,9 @@
+.menuBar{
+  width: 4.6rem;
+  height: 80%;
+  background-color: #073C44;
+  transition: 0.4s ease-in-out;
+  position: absolute;
+  left: unset;
+  right: unset;
+}
