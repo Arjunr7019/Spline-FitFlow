@@ -33,9 +33,10 @@ function App() {
     <div>
       <div className='vh-100'>
         <NavBar />
-        <Spline scene="https://prod.spline.design/GYsEYajmhzouo1XS/scene.splinecode" />
-        <div style={{ top: "80%" }} className='position-absolute start-50 translate-middle d-flex flex-column align-items-center'>
-          <h1 className='fw-bold' style={{ color: "#073C44" }}>Stay Fit By Using Fit Flow</h1>
+        <Spline
+          scene="https://prod.spline.design/837riZRzEM8QtBdY/scene.splinecode"
+        />
+        <div style={{ top: "85%" }} className='position-absolute start-50 translate-middle d-flex flex-column align-items-center'>
           <button
             onClick={() => checkWorkouts()}
             className='px-2 rounded-3'
@@ -60,7 +61,7 @@ function App() {
 
       {scrollToTop ? <p
         onClick={() => window.scrollTo(0, 0)}
-        style={{ right: "0", bottom: "0",cursor:"pointer",backgroundColor:"#073C44",color:"white" }}
+        style={{ right: "0", bottom: "0", cursor: "pointer", backgroundColor: "#073C44", color: "white" }}
         className='position-fixed mx-4 px-2 py-1 rounded-2'>top up</p> : <></>}
     </div>
   );
