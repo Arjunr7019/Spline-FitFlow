@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Spline from '@splinetool/react-spline';
 import NavBar from './Components/NavBar';
 import { useState } from 'react';
+import pushImg from './Images/tricep-push-ups.png';
 
 function App() {
   const [workout, setWorkout] = useState({ left: "0" })
@@ -54,6 +55,24 @@ function App() {
             <p onClick={(e) => workouts(e.target.innerText)} className='text-center my-auto rounded-2 z-1' style={{ width: "4.6rem", color: "white", cursor: "pointer" }}>Push</p>
             <p onClick={(e) => workouts(e.target.innerText)} className='text-center my-auto rounded-2 z-1' style={{ width: "4.6rem", color: "white", cursor: "pointer" }}>Pull</p>
             <p onClick={(e) => workouts(e.target.innerText)} className='text-center my-auto rounded-2 z-1' style={{ width: "4.6rem", color: "white", cursor: "pointer" }}>Leg</p>
+          </div>
+        </div>
+        <div className='pt-3 d-flex justify-content-around flex-wrap aligin-items-center'>
+          <div className='p-2 rounded-4 my-2' style={{width:"15rem",backgroundColor:"#DEECEC",cursor:"pointer"}}>
+            <img className='w-100 rounded-3 mb-1' src={pushImg} alt="img" />
+            <h5>Push Ups</h5>
+          </div>
+          <div className='p-2 rounded-4 my-2' style={{width:"15rem",backgroundColor:"#DEECEC",cursor:"pointer"}}>
+            <img className='w-100 rounded-3 mb-1' src={pushImg} alt="img" />
+            <h5>Push Ups</h5>
+          </div>
+          <div className='p-2 rounded-4 my-2' style={{width:"15rem",backgroundColor:"#DEECEC",cursor:"pointer"}}>
+            <img className='w-100 rounded-3 mb-1' src={pushImg} alt="img" />
+            <h5>Push Ups</h5>
+          </div>
+          <div className='p-2 rounded-4 my-2' style={{width:"15rem",backgroundColor:"#DEECEC",cursor:"pointer"}}>
+            <img className='w-100 rounded-3 mb-1' src={pushImg} alt="img" />
+            <h5>Push Ups</h5>
           </div>
         </div>
       </div>
