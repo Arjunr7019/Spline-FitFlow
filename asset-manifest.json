@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Spline-FitFlow/static/css/main.d851c15a.css",
-    "main.js": "/Spline-FitFlow/static/js/main.3cd01627.js",
+    "main.js": "/Spline-FitFlow/static/js/main.24ee682d.js",
     "static/js/208.92e172d2.chunk.js": "/Spline-FitFlow/static/js/208.92e172d2.chunk.js",
     "static/js/293.601aeaf0.chunk.js": "/Spline-FitFlow/static/js/293.601aeaf0.chunk.js",
     "static/js/917.56261ba5.chunk.js": "/Spline-FitFlow/static/js/917.56261ba5.chunk.js",
@@ -13,7 +13,7 @@
     "static/js/488.e3ae5640.chunk.js": "/Spline-FitFlow/static/js/488.e3ae5640.chunk.js",
     "index.html": "/Spline-FitFlow/index.html",
     "main.d851c15a.css.map": "/Spline-FitFlow/static/css/main.d851c15a.css.map",
-    "main.3cd01627.js.map": "/Spline-FitFlow/static/js/main.3cd01627.js.map",
+    "main.24ee682d.js.map": "/Spline-FitFlow/static/js/main.24ee682d.js.map",
     "208.92e172d2.chunk.js.map": "/Spline-FitFlow/static/js/208.92e172d2.chunk.js.map",
     "293.601aeaf0.chunk.js.map": "/Spline-FitFlow/static/js/293.601aeaf0.chunk.js.map",
     "917.56261ba5.chunk.js.map": "/Spline-FitFlow/static/js/917.56261ba5.chunk.js.map",
@@ -26,6 +26,6 @@
   },
   "entrypoints": [
     "static/css/main.d851c15a.css",
-    "static/js/main.3cd01627.js"
+    "static/js/main.24ee682d.js"
   ]
 }
